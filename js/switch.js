@@ -1,0 +1,1 @@
+$('#mySwitchs input').bootstrapSwitch();
