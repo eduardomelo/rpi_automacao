@@ -18,7 +18,7 @@ switch ($current_page) {
         break;
 }
 
-if (($current_page != 'index.php') && (empty($_SESSION['user']['login']))) {
+if (($current_page != 'index.php') && (empty($_SESSION['user']['id']))) {
     header('Location: ./index.php');
     die();
 }

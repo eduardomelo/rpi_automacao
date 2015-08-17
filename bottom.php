@@ -1,9 +1,3 @@
-		<!-- Site footer -->
-		<footer class="footer">
-		  <p>&copy; Eduardo Melo 2015</p>
-		  <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-		  <a class="" href="https://twitter.com/eduardomelo87" target="_blank">Twitter</a>
-		</footer>
 	</div>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
