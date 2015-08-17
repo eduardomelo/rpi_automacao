@@ -25,11 +25,9 @@ if ((!empty($pin) && preg_match("@^[0-9]{1,2}$@", $pin)) && (!empty($status) && 
 		$_SESSION['alerts']['update'] = "Falha no update!";
 	}
 	
-}/*
+}
 else {
-	$_SESSION['alerts']['login'] = "Operação inválida!";
-	header('Location: ./index.php');
+	header('Location: ./logout.php');
     die();
 }
-*/
 ?>
