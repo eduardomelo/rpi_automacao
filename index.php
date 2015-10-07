@@ -24,9 +24,9 @@ else if (!empty($_SESSION['alerts'])) {
 <?php
 if(!empty($alert_message)) {
 ?>
-        <div class="alert alert-danger" role="alert">
+        <div class="alert alert-warning" role="alert">
           <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-          <span class="sr-only">Error:</span>
+          <span class="sr-only">Warning:</span>
           <?php echo $alert_message; ?>
         </div>
 <?php
