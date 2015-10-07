@@ -18,8 +18,13 @@ require_once("./top.php");
     -->
     <div class="container">
 		<div class="page-header">
-			<h1>em constru&ccedil;&atilde;o</h1>
+			<h1>Editar dispositivos</h1>
 		</div>
+    <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Dispositivo</span>
+    <input type="text" class="form-control" placeholder="Nome do dispositivo" aria-describedby="basic-addon1">
+  </div>
+
     </div>
 <?php
   require_once("./bottom.php");
