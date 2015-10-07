@@ -14,7 +14,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Instala o apache, php5 e bibliotéca apache | mysql cliente, servidor e mysqlnd para usar o mysqli |
 # servidor FTP VSFTPD (Very Secury FTP Daemon)
-sudo apt-get install apache2 php5 libapache2-mod-php5 mysql-client mysql-server mysqlnd vsftpd
+sudo apt-get install apache2 php5 libapache2-mod-php5 mysql-client mysql-server php5-mysqlnd vsftpd
 
 # Reinicia o apache para efetivar as mudanças
 sudo apachectl restart
