@@ -25,7 +25,7 @@
 
 CREATE Database `rpi_automacao`
 
-USE `rpi-automacao`
+USE `rpi_automacao`
 
 DROP TABLE IF EXISTS `devices`;
 
