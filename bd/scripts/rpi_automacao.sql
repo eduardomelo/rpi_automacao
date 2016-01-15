@@ -23,9 +23,9 @@
 # Dump of table devices
 # ------------------------------------------------------------
 
-CREATE Database `rpi_automacao`
+CREATE Database `rpi_automacao`;
 
-USE `rpi_automacao`
+USE `rpi_automacao`;
 
 DROP TABLE IF EXISTS `devices`;
 
