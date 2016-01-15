@@ -23,6 +23,10 @@
 # Dump of table devices
 # ------------------------------------------------------------
 
+CREATE Database `rpi_automacao`
+
+USE `rpi-automacao`
+
 DROP TABLE IF EXISTS `devices`;
 
 CREATE TABLE `devices` (
